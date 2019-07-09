@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>nvidia-inspector</id>
+    <version>1.9.7.8</version>
+    <packageSourceUrl>https://github.com/gvvad/cpackages</packageSourceUrl>
+    <owners>Orbmu2k</owners>
+    <title>Nvidia Inspector</title>
+    <!-- <authors></authors> -->
+    <copyright>(c) Orbmu2k 2016</copyright>
+    <projectUrl>https://www.guru3d.com/files-details/nvidia-inspector-download.html</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/gvvad/cpackages/res/nv_inspector.png</iconUrl>
+    <licenseUrl>https://cdn.jsdelivr.net/gh/Orbmu2k/nvidiaProfileInspector/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!-- This software has not source, docs and bug tracker-->
+    <!-- <projectSourceUrl></projectSourceUrl> -->
+    <!-- <docsUrl></docsUrl> -->
+    <!-- <bugTrackerUrl></bugTrackerUrl> -->
+    <tags>nvidia inspector profile overclock graphic geforce</tags>
+    <summary>GeForce graphics cards information application.</summary>
+    <description>The tool is basically an nVIDIA only OverClocking application, you can set your clocks and fan speeds. Orbmu2k has released this program, which seems to NVIDIA graphics cards and offers information on tools for GPU and memory clock speed, GPU operating voltage and fan speed increase. This is a quite simple user interface with an application that will rely entirely NVIDIA drivers, so there is reason to be downloaded from NVIDIA's website WHQL-certified driver.</description>
+  </metadata>
+</package>

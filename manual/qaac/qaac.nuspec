@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>qaac</id>
+    <version>2.68</version>
+    <packageSourceUrl>https://github.com/gvvad/cpackages</packageSourceUrl>
+    <owners>nu774</owners>
+    <title>qaac - CLI QuickTime AAC/ALAC encoder</title>
+    <!-- <authors></authors> -->
+    <copyright>(c) nu774 2019</copyright>
+    <projectUrl>https://sites.google.com/site/qaacpage/</projectUrl>
+    <!-- <iconUrl></iconUrl> -->
+    <licenseUrl>https://github.com/nu774/qaac/blob/master/COPYING</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/nu774/qaac</projectSourceUrl>
+    <docsUrl>https://github.com/nu774/qaac/wiki</docsUrl>
+    <bugTrackerUrl>https://github.com/nu774/qaac/issues</bugTrackerUrl>
+    <tags>qaac apple aac alac QuickTime</tags>
+    <summary>qaac is a command line AAC/ALAC encoder frontend based on Apple encoder.</summary>
+    <description>qaac requires Apple Application Support that is included in iTunes or QuickTime. If you are using 64bit Windows, recent 64bit iTunes (ver 12.1 or later) is recommended. 64bit installer for iTunes (iTunes6464Setup.exe) includes both of 32bit and 64bit AppleApplicationSupport, therefore you can run both of qaac.exe and qaac64.exe with it's installation.</description>
+  </metadata>
+</package>
