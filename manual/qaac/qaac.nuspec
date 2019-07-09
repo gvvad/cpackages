@@ -4,9 +4,9 @@
     <id>qaac</id>
     <version>2.68</version>
     <packageSourceUrl>https://github.com/gvvad/cpackages</packageSourceUrl>
-    <owners>nu774</owners>
+    <owners>gvvad</owners>
     <title>qaac - CLI QuickTime AAC/ALAC encoder</title>
-    <!-- <authors></authors> -->
+    <authors>nu774</authors>
     <copyright>(c) nu774 2019</copyright>
     <projectUrl>https://sites.google.com/site/qaacpage/</projectUrl>
     <!-- <iconUrl></iconUrl> -->

@@ -4,9 +4,9 @@
     <id>nvidia-inspector</id>
     <version>1.9.7.8</version>
     <packageSourceUrl>https://github.com/gvvad/cpackages</packageSourceUrl>
-    <owners>Orbmu2k</owners>
+    <owners>gvvad</owners>
     <title>Nvidia Inspector</title>
-    <!-- <authors></authors> -->
+    <authors>Orbmu2k</authors>
     <copyright>(c) Orbmu2k 2016</copyright>
     <projectUrl>https://www.guru3d.com/files-details/nvidia-inspector-download.html</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/gvvad/cpackages/res/nv_inspector.png</iconUrl>
