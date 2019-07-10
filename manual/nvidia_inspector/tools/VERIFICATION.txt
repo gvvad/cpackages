@@ -1,6 +1,3 @@
-﻿[MD5 CRC checksum file listing:]
-
-adee34e1ea912ee34665e95b61da0804 *change.log
-dedadf41de16464ec2ff6f1181270b17 *nvidiaInspector.exe
-5182b3d33df085cc11aba1f9c2b9e7e0 *nvidiaInspector.exe.config
-e4ab350ca541a9f73bc9e9f4f3ce7cc5 *nvidiaProfileInspector.exe
+﻿file: nvidiaInspector.zip
+from: https://www.techpowerup.com/download/nvidia-inspector/
+md5 checksum: 91d399e3b2528828f173878e55f297bd

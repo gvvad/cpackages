@@ -2,8 +2,8 @@ $startMenuPath = Join-Path  $env:ProgramData "Microsoft\Windows\Start Menu\Progr
 
 $archive = @{
     fileName = "nvidiaInspector.zip"
-    checksum = 'a11222bde0d30fd3e949e8d85b23efaa964eae68aa1f16c24b3b1d1877640a64'
-    checksumType = 'sha256'
+    checksum = '91d399e3b2528828f173878e55f297bd'
+    checksumType = 'md5'
 }
 
 $extFiles = @{

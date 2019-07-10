@@ -2,5 +2,7 @@
 
 $a = Get-Process -Name "qaac*"
 $b = Get-Process -Name "refalac*"
-
-Stop-Process -InputObject $($a+$b) -ErrorAction Ignore
+$processes = $a + $b
+if ($processes) {
+    Stop-Process -InputObject $processes -ErrorAction Ignore
+}

@@ -13,7 +13,7 @@ $packageArgs = @{
 Write-Output "Nvidia Inspector is going to be installed in '$toolsPath'"
 Install-ChocolateyZipPackage @packageArgs
 
-Remove-Item -Path $packageArgs.file
+Remove-Item -Path $packageArgs.file -ErrorAction Ignore
 
 foreach($item in $extFiles.GetEnumerator()) {
     Install-ChocolateyShortcut -ShortcutFilePath "$(Join-Path $startMenuPath $item.Name).lnk" -TargetPath $(Join-Path $toolsPath $item.Value) -WorkingDirectory $toolsPath -RunAsAdmin
