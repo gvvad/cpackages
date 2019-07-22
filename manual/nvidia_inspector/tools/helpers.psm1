@@ -1,4 +1,5 @@
-$startMenuPath = Join-Path  $env:ProgramData "Microsoft\Windows\Start Menu\Programs\Nvidia Inspector"
+$commonProgramsPath = [System.Environment]::GetFolderPath([System.Environment+SpecialFolder]::CommonPrograms)
+$startMenuPath = Join-Path  $commonProgramsPath "Nvidia Inspector"
 
 $archive = @{
     fileName = "nvidiaInspector.zip"

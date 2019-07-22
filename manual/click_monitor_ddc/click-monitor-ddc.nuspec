@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>click-monitor-ddc</id>
+    <version>7.0</version>
+    <packageSourceUrl>https://github.com/gvvad/cpackages</packageSourceUrl>
+    <owners>gvvad</owners>
+    <title>Click Monitor DDC</title>
+    <authors>Martin</authors>
+    <copyright>(c) Martin 2019</copyright>
+    <projectUrl>https://clickmonitorddc.bplaced.net/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/gvvad/cpackages/res/click_monitor_ddc.ico</iconUrl>
+    
+    <!-- This programm has not license and it`s freeware -->
+    <!-- <licenseUrl></licenseUrl> -->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    
+    <!-- This software has not source, docs and bug tracker-->
+    <!-- <projectSourceUrl></projectSourceUrl> -->
+    <!-- <docsUrl></docsUrl> -->
+    <!-- <bugTrackerUrl></bugTrackerUrl> -->
+    <tags>monitor ddc</tags>
+    <summary>Control your monitor via DDC-protocol</summary>
+    <description>Click taskbar notification icons to adjust the real monitor-backlight-brightness/contrast or use mouse wheel over notification icons to increase/decrease corresponding value, much more comfortable and faster than manually messing around with monitor buttons, works with external monitors (DDC-protocol) and Laptop-LCD-Display.</description>
+  </metadata>
+</package>

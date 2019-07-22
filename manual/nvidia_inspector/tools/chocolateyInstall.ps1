@@ -16,5 +16,9 @@ Install-ChocolateyZipPackage @packageArgs
 Remove-Item -Path $packageArgs.file -ErrorAction Ignore
 
 foreach($item in $extFiles.GetEnumerator()) {
-    Install-ChocolateyShortcut -ShortcutFilePath "$(Join-Path $startMenuPath $item.Name).lnk" -TargetPath $(Join-Path $toolsPath $item.Value) -WorkingDirectory $toolsPath -RunAsAdmin
+    Install-ChocolateyShortcut `
+    -ShortcutFilePath "$(Join-Path $startMenuPath $item.Name).lnk" `
+    -TargetPath $(Join-Path $toolsPath $item.Value) `
+    -WorkingDirectory $toolsPath `
+    -RunAsAdmin
 }
