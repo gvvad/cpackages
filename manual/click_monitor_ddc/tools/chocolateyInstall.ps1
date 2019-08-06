@@ -1,4 +1,4 @@
-﻿# $toolsPath = Split-Path $MyInvocation.MyCommand.Definition
+﻿$ErrorActionPreference = "Stop"
 
 $packageArgs = @{
     packageName = $env:ChocolateyPackageName
@@ -10,5 +10,4 @@ $packageArgs = @{
     checksumType = "sha256"
 }
 
-Write-Output "Click Monitor DDC is going to be installed."
 Install-ChocolateyPackage @packageArgs
