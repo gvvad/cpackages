@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>rapr</id>
+    <version>0.10.54</version>
+    <packageSourceUrl>https://github.com/gvvad/cpackages</packageSourceUrl>
+    <owners>gvvad</owners>
+    <title>Driver Store Explorer [RAPR]</title>
+    <authors>lostindark</authors>
+    <copyright>(c) lostindark 2019</copyright>
+    <projectUrl>https://github.com/lostindark/DriverStoreExplorer</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/gvvad/cpackages/res/rapr_icon.ico</iconUrl>
+    <licenseUrl>https://github.com/lostindark/DriverStoreExplorer/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/lostindark/DriverStoreExplorer</projectSourceUrl>
+    <docsUrl>https://github.com/lostindark/DriverStoreExplorer/wiki</docsUrl>
+    <bugTrackerUrl>https://github.com/lostindark/DriverStoreExplorer/issues</bugTrackerUrl>
+    <tags>rapr driver explorer utility</tags>
+    <summary>Windows driver store utility.</summary>
+    <description>Driver Store Explorer [RAPR] makes it easier to deal with Windows driver store. Supported operations include enumeration, adding a driver package (stage), adding and installing, deletion and force deletion from the driver store.</description>
+  </metadata>
+</package>
