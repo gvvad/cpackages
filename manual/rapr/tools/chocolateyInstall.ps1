@@ -1,5 +1,6 @@
 ﻿$ErrorActionPreference = "Stop"
 $toolsPath = Split-Path $MyInvocation.MyCommand.Definition
+Import-Module $toolsPath\helpers.psm1
 
 $packageArgs = @{
     packageName = $env:ChocolateyPackageName
@@ -10,3 +11,11 @@ $packageArgs = @{
 }
 
 Install-ChocolateyZipPackage @packageArgs
+
+foreach($item in $extFiles.GetEnumerator()) {
+    Install-ChocolateyShortcut `
+    -ShortcutFilePath "$(Join-Path $startMenuPath $item.Name).lnk" `
+    -TargetPath $(Join-Path $toolsPath $item.Value) `
+    -WorkingDirectory $toolsPath `
+    -RunAsAdmin
+}
