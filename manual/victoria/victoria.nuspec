@@ -5,7 +5,7 @@
     <version>5.23</version>
     <packageSourceUrl>https://github.com/gvvad/cpackages</packageSourceUrl>
     <owners>gvvad</owners>
-    <title>victoria - HDD/SSD test and repair tools</title>
+    <title>Victoria HDD/SSD - test and repair tools</title>
     <authors>Sergei Kazanskij, Roman Butskikh</authors>
     <copyright>(c) Sergei Kazanskij, 2006-2019</copyright>
     <projectUrl>http://hdd.by</projectUrl>
