@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>victoria</id>
+    <version>5.23</version>
+    <packageSourceUrl>https://github.com/gvvad/cpackages</packageSourceUrl>
+    <owners>gvvad</owners>
+    <title>victoria - HDD/SSD test and repair tools</title>
+    <authors>Sergei Kazanskij, Roman Butskikh</authors>
+    <copyright>(c) Sergei Kazanskij, 2006-2019</copyright>
+    <projectUrl>http://hdd.by</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/gvvad/cpackages/res/victoria_icon.ico</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>http://hdd.by/victoria</docsUrl>
+    <tags>victoria hdd ssd test repair smart</tags>
+    <summary>HDD/SSD diagnostics, research, testing program.</summary>
+    <description>Victoria HDD/SSD - is the best free program for diagnostics, research, testing and minor repairs of hard drives, SSD-drives, memory cards, as well as any other drives in the Windows operating system.</description>
+  </metadata>
+</package>
