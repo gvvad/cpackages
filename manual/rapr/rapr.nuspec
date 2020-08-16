@@ -2,7 +2,7 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>rapr</id>
-    <version>0.10.58</version>
+    <version>0.11.20</version>
     <packageSourceUrl>https://github.com/gvvad/cpackages</packageSourceUrl>
     <owners>gvvad</owners>
     <title>Driver Store Explorer [RAPR]</title>
