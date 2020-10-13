@@ -3,3 +3,4 @@
 * qaac
 * nvidia inspector
 * click monitor ddc
+* victoria hdd
