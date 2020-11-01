@@ -5,7 +5,7 @@ $packageArgs = @{
     fileType = "exe"
     SilentArgs = "/VERYSILENT"
     UseOnlyPackageSilentArguments = $true
-    url = "https://clickmonitorddc.bplaced.net/setup_ClickMonitorDDC_7_2.exe"
+    url = "https://drive.google.com/uc?export=download&id=15yIn2KE0JUaVcRSWjWjC22isealRd_wV"
     checksum = "a66ca28c485ab061e0cfa737c24e7dfbfd3d093f2e607211e65599abafe16e01"
     checksumType = "sha256"
 }
