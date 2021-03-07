@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsPath = Split-Path $MyInvocation.MyCommand.Definition
 Import-Module $toolsPath\helpers.psm1
-Write-Output $toolsPath
+
 $packageArgs = @{
     packageName = $env:ChocolateyPackageName
     url = "http://hdd.by/Victoria/Victoria536.zip"

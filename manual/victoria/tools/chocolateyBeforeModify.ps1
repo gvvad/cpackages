@@ -2,5 +2,8 @@ $ErrorActionPreference = 'Stop';
 $toolsPath = Split-Path $MyInvocation.MyCommand.Definition
 Import-Module $toolsPath\helpers.psm1
 
-Get-Process -Name "victoria" -ErrorAction Ignore | Stop-Process -ErrorAction Ignore # TODO: In this case, need to throw "abort install" exception!
+if ($(Get-Process -Name "victoria" -ErrorAction Ignore)) {
+    throw "Program is running. Installation was aborted!"
+}
+
 Remove-Item -Path $startMenuPath -Recurse -ErrorAction Ignore
