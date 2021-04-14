@@ -4,8 +4,8 @@ Import-Module $toolsPath\helpers.psm1
 
 $packageArgs = @{
     packageName = $env:ChocolateyPackageName
-    url = "https://github.com/lostindark/DriverStoreExplorer/releases/download/v0.11.64/DriverStoreExplorer.v0.11.64.zip"
-    checksum = "4aa2635570ee9ec7aea16dea783e9dada5fb388f3ca2f7b64eb401e81059c42a"
+    url = "https://github.com/lostindark/DriverStoreExplorer/releases/download/v0.11.72/DriverStoreExplorer.v0.11.72.zip"
+    checksum = "0193e6bbdf85d4ec118b7ccecb6837bd6ed38a8cd193de924d8028003ae712c5"
     checksumType = "sha256"
     unzipLocation  = $toolsPath
 }
