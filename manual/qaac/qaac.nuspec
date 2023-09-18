@@ -2,12 +2,12 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>qaac</id>
-    <version>2.71</version>
+    <version>2.80</version>
     <packageSourceUrl>https://github.com/gvvad/cpackages</packageSourceUrl>
     <owners>gvvad</owners>
     <title>qaac - CLI QuickTime AAC/ALAC encoder</title>
     <authors>nu774</authors>
-    <copyright>(c) nu774 2019</copyright>
+    <copyright>(c) nu774 2023</copyright>
     <projectUrl>https://sites.google.com/site/qaacpage/</projectUrl>
     <!-- <iconUrl></iconUrl> -->
     <licenseUrl>https://github.com/nu774/qaac/blob/master/COPYING</licenseUrl>

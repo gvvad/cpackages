@@ -2,8 +2,8 @@
 
 $packageArgs = @{
     packageName = $env:ChocolateyPackageName
-    url = "https://github.com/nu774/qaac/releases/download/v2.71/qaac_2.71.zip"
-    checksum = "f224f1da1e4fc1bd1096025dbb0eea9b4392422abb77810338ecb226b4497aa8"
+    url = "https://github.com/nu774/qaac/releases/download/v2.80/qaac_2.80.zip"
+    checksum = "1a746d7d68fe8429c99ee172ac4e8640d11e80909be47567ae24b6ad99bddae9"
     checksumType = "sha256"
     unzipLocation  = $toolsPath
 }
